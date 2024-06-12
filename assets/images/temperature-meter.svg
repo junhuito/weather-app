@@ -1,0 +1,23 @@
+<svg width="90" height="90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradientStroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#7A748A;stop-opacity:1" />
+      <stop offset="95%" style="stop-color:#7A748A;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#7A748A;stop-opacity:0" />
+    </linearGradient>
+
+    <linearGradient id="outerGradientStroke" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF;stop-opacity:1" />
+      <stop offset="95%" style="stop-color:#FFF;stop-opacity:0" />
+      <stop offset="100%" style="stop-color:#FFF;stop-opacity:0" />
+    </linearGradient>
+  </defs>
+  
+	<!-- Arc Length=(Degree /360)×2πr -->
+    
+    <!-- Arc length = 254.469004941, create 40 slash, 254.469004941 / 40 = 6.36172512353  --> 
+  <circle r="45%" cx="50%" cy="50%" fill="transparent" stroke="url(#gradientStroke)" stroke-width="10" stroke-dasharray="2 10.7234502471"/>
+  
+  <!-- (45° / 360 °) * 2 * PI * R = 31.8086256176 -->
+  <circle r="45%" cx="50%" cy="50%" fill="transparent" stroke-offset="45" stroke="url(#outerGradientStroke)" stroke-width="12" stroke-dasharray="2 61.6172512352"/>
+</svg>
